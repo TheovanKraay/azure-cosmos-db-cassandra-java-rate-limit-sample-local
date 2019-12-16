@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UserProfile",
+            "request": "launch",
+            "mainClass": "com.azure.cosmosdb.cassandra.examples.UserProfile",
+            "projectName": "cosmosdb-cassandra-examples"
+        }
+    ]
+}
