@@ -23,8 +23,8 @@ public class UserProfile {
     private static final Logger LOGGER = LoggerFactory.getLogger(UserProfile.class);
     private static Random random = new Random();
     public static final int NUMBER_OF_THREADS = 10;
-    public static final int NUMBER_OF_WRITES_PER_THREAD = 10;
-    public static final int MAX_NUMBER_OF_RETRIES = 4;
+    public static final int NUMBER_OF_WRITES_PER_THREAD = 30;
+    public static final int MAX_NUMBER_OF_RETRIES = 5;
 
     //set instance variables
     int recordcount = 0;
