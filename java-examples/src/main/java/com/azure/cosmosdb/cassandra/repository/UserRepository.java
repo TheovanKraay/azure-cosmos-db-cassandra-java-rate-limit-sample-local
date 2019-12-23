@@ -87,7 +87,7 @@ public class UserRepository {
     public void selectUserCount(String queryString) {
         final String query = queryString;
         Row row = session.execute(query).one();
-        LOGGER.info("count of users: " +row.getLong(0), row.getLong(0));
+        LOGGER.info("count of user entries found after load test: " +row.getLong(0), row.getLong(0));
     } 
 
 
